@@ -2395,3 +2395,26 @@
 #banner p {
 	margin: 2em;
 }
+
+.gallery div.portfolio-box {
+	background: rgba(0, 0, 0, 0.5);
+	background-clip: content-box;
+	opacity: 0;
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: opacity 0.5s;
+}
+
+.gallery p {
+	text-align: center;
+	margin: 10%;
+}
+
+.gallery div.portfolio-box:hover {
+	opacity: 1;
+	transition: opacity 0.5s;
+}
