@@ -34,12 +34,31 @@
 		// Disable animations/transitions until the page has loaded.
         $body.addClass('is-loading');
 
+		function centerProjectImages() {
+            // Center the images inside of the outer container
+            $('.right-image').each(function(index, image) {
+                var $image = $(image);
+
+                $image.css('left', -(($image.width() - $image.parent().width()) / 2));
+            });
+
+            $('.left-image').each(function(index, image) {
+                var $image = $(image);
+
+                $image.css('right', -(($image.width() - $image.parent().width()) / 2));
+            });
+        }
+
         $window.on('load', function() {
             $body.removeClass('is-loading');
 
-            // Center the images inside of the outer container
-            $('.right-image').css('right', -(($('.right-image').width() - $('.right-image-container').width()) / 2));
-            $('.left-image').css('right', -(($('.left-image').width() - $('.left-image-container').width()) / 2));
+            // $('.left-image').css('left', -(($('.left-image').width() - $('.left-image-container').width()) / 2));
+
+            centerProjectImages();
+        });
+
+        $window.on('resize', function() {
+            centerProjectImages();
         });
 
 		// CSS polyfills (IE<9).
