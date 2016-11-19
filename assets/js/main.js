@@ -49,16 +49,28 @@
             });
         }
 
+        function configurePortfolioBox() {
+		    // Match the overlay portfolio box's padding with the parent's to prevent overflow
+		    $('.portfolio-box').css('padding', $('.portfolio-box').parent().css('padding'));
+
+		    // Align each portfolio box's text vertically
+            $('.gallery p').each(function(index, text) {
+                var $text = $(text);
+
+                $text.css('margin-top', ($text.parent().height() - $text.height()) / 2)
+            });
+        }
+
         $window.on('load', function() {
             $body.removeClass('is-loading');
 
-            // $('.left-image').css('left', -(($('.left-image').width() - $('.left-image-container').width()) / 2));
-
             centerProjectImages();
+            configurePortfolioBox();
         });
 
         $window.on('resize', function() {
             centerProjectImages();
+            configurePortfolioBox();
         });
 
 		// CSS polyfills (IE<9).
