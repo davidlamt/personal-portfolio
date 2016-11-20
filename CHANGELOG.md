@@ -9,4 +9,4 @@ N/A
 
 ## 1.0.0 - 2016-11-20
 #### Added
-- Initial commit
+- Initial release
