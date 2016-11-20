@@ -7,6 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 N/A
 
-## 1.0.0 - 11-20-2016
+## 1.0.0 - 2016-11-20
 #### Added
 - Initial commit
