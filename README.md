@@ -20,4 +20,4 @@ A personal portfolio built using a template from [HTML UP](https://html5up.net/)
 
 ## Author
 
-[David Tran](http://davidtranscend.com/) 
+[David Tran](http://davidtranscend.com/)
