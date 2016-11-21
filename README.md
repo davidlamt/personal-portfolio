@@ -1,14 +1,23 @@
 # Personal Portfolio
-A personal portfolio built using a template from <a href="https://html5up.net/" target="_blank">HTML UP</a>.
+
+A personal portfolio built using a template from [HTML UP](https://html5up.net/).
 
 ## Version
+
 **1.0.0**
 
+## Demo
+
+[http://davidtranscend.com/](http://davidtranscend.com/)
+
 ## History
-<a href="https://github.com/davidlamt/personal-portfolio/blob/develop/CHANGELOG.md" target="_blank">Change Log</a>
+
+[Change Log](https://github.com/davidlamt/personal-portfolio/blob/master/CHANGELOG.md)
 
 ## License
-<a href="https://github.com/davidlamt/personal-portfolio/blob/develop/LICENSE" target="_blank">MIT License</a>
+
+[MIT License](https://github.com/davidlamt/personal-portfolio/blob/master/LICENSE)
 
 ## Author
-<a href="http://davidtranscend.com/" target="_blank">David Tran</a>
+
+[David Tran](http://davidtranscend.com/) 
