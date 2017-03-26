@@ -15,6 +15,7 @@ N/A
 ### Added
 - A button that links to personal blog.
 - Wordpress and twitter social media icons.
+- Google analytics script.
 
 ### Removed
 - FreeCodeCamp social media icon.
