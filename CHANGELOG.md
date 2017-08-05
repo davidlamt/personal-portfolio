@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
+N/A
+
+## 1.3.0 - 2017-08-04
 ### Removed
 - New tab attribute from blog and portfolio links.
 
